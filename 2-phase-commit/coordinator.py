@@ -2,6 +2,7 @@ from participant import Participant
 import uuid
 import logging
 logging.basicConfig(level=logging.INFO)
+
 class Coordinator:
     def __init__(self) -> None:
         self.participants: list[Participant] = []
